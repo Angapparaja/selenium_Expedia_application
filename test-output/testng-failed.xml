@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" verbose="4" name="Failed suite [Expedia project]">
+  <test thread-count="2" verbose="4" name="ExpediaBookingPage(failed)">
+    <classes>
+      <class name="com.ba.Task.tests.BookingPageTest">
+        <methods>
+          <include name="bookingPageSetup"/>
+          <include name="clickCheapestHotel"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.ba.Task.tests.BookingPageTest -->
+    </classes>
+  </test> <!-- ExpediaBookingPage(failed) -->
+</suite> <!-- Failed suite [Expedia project] -->
